@@ -30,9 +30,7 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     [Tooltip("Text to show if paused")]
     private TextMeshProUGUI gameStateText;
-
     private GameState currentState;
-    
 
     private void Start()
     {

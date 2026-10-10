@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Header
   - Important
+  - Enemy
   layers:
   - Default
   - TransparentFX

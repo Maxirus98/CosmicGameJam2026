@@ -1,8 +1,18 @@
+using NUnit.Framework;
+using System.Collections.Generic;
 using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     [SerializeField]
     private GameObject enemy;
+
+    [SerializeField]
+    private GameObject good;
+
+    [SerializeField]
+    [Tooltip("Percentage of enemies that are 'bad girls' (hostile)")]
+    private float percentageOfBadGirls = 60;
+
 
     [SerializeField]
     private float spawnRateMin = 0.2f;
@@ -16,7 +26,6 @@ public class EnemySpawner : MonoBehaviour
     /// Guard clause that indicates whether enemies should spawn.
     /// </summary>
     private bool enemyShouldSpawn = true;
-
 
     // Update is called once per frame
     void Update()
@@ -61,6 +70,8 @@ public class EnemySpawner : MonoBehaviour
                 break;
         }
 
-        Instantiate(enemy, new Vector3(spawnPos.x, spawnPos.y, 0f), Quaternion.identity);
+        var isGood = Random.value > (percentageOfBadGirls / 100f); // 25% chance to be a good girl
+
+        Instantiate(isGood ? good : enemy, new Vector3(spawnPos.x, spawnPos.y, 0f), Quaternion.identity);
     }
 }

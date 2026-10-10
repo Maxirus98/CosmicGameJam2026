@@ -1,6 +1,8 @@
 using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -40,6 +42,7 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
+        if (currentState == GameState.GameOver) return;
         if (currentState != GameState.MainMenu && Input.GetKeyDown(KeyCode.Escape))
         {
             TogglePause();
@@ -68,11 +71,26 @@ public class GameManager : MonoBehaviour
         GameStateHandler?.Invoke(currentState);
     }
 
-    private void GameOver()
+    public void GameOver()
     {
         // Fade in the main menu canvas and show the game over message
         mainMenuCanvas.SetActive(true);
         currentState = GameState.GameOver;
+        gameStateText.text = "Game Over";
+        startButtonText.text = "Recommencer";
+
+        // Weird way to get the button. Don't judge me.
+        startButtonText.transform.parent.GetComponent<Button>().onClick.AddListener(RestartScene);
+        Time.timeScale = 0f;
+    }
+
+    public void RestartScene()
+    {
+        // 2. Get the index of the currently active scene
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+
+        // 3. Load it again
+        SceneManager.LoadScene(currentSceneIndex);
     }
 
     // Called on start button click
@@ -86,13 +104,8 @@ public class GameManager : MonoBehaviour
         startButtonText.text = "Reprendre";
     }
 
-    // Called on restart button click
-    public void RestartGame()
+    public void Quitter()
     {
-        StartGame();
-        // Additional logic to reset the game state if needed
-        // reset player pos
-        // reset enemies
-        // reset chad score
+        Application.Quit();
     }
 }

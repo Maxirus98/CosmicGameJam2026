@@ -45,5 +45,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpawner
   enemy: {fileID: 2029096383057267883, guid: 8f8fe222437663447aae4b4889b1e0e0, type: 3}
-  spawnRateMin: 0.2
+  spawnRateMin: 0.5
   spawnRateMax: 1

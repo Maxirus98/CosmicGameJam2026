@@ -12,9 +12,17 @@ public class EnemySpawner : MonoBehaviour
     private float spawnRate;
     private float timer;
 
+    /// <summary>
+    /// Guard clause that indicates whether enemies should spawn.
+    /// </summary>
+    private bool enemyShouldSpawn = true;
+
+
     // Update is called once per frame
     void Update()
     {
+        if (!enemyShouldSpawn) return;
+
         timer -= Time.deltaTime;
         if (timer < 0f)
         {

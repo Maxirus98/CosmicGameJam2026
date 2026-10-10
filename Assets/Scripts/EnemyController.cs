@@ -15,8 +15,20 @@ public class EnemyController : MonoBehaviour
     [Tooltip("Distance from the player at which the enemy will destroy itself")]
     private float playerDestroyDistance = 0.2f;
 
+    // The actual speed of the enemy, randomly set between speedRangeMin and speedRangeMax
     private float speed;
+
     private Transform player;
+
+    private void OnEnable()
+    {
+        GameManager.GameStateHandler += OnGameStateChanged;
+    }
+
+    private void OnGameStateChanged(GameManager.GameState state)
+    {
+        throw new System.NotImplementedException();
+    }
 
     private void Start()
     {
@@ -45,5 +57,10 @@ public class EnemyController : MonoBehaviour
     private void OnMouseDown()
     {
         Destroy(gameObject);
+    }
+
+    private void OnDisable()
+    {
+        GameManager.GameStateHandler -= OnGameStateChanged;
     }
 }

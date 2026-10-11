@@ -34,6 +34,15 @@ public class GameManager : MonoBehaviour
     private TextMeshProUGUI gameStateText;
     private GameState currentState;
 
+    [SerializeField]
+    [Tooltip("The canvas for the story")]
+    private GameObject storyCanvas;
+
+    [SerializeField]
+    [Tooltip("The canvas for the end")]
+    private GameObject endCanvas;
+
+
     private void Start()
     {
         currentState = GameState.MainMenu;
@@ -73,15 +82,16 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
+        Time.timeScale = 0f;
+
         // Fade in the main menu canvas and show the game over message
+        endCanvas.SetActive(true);
         mainMenuCanvas.SetActive(true);
         currentState = GameState.GameOver;
-        gameStateText.text = "Game Over";
-        startButtonText.text = "Recommencer";
+        startButtonText.text = "Restartmaxxing";
 
         // Weird way to get the button. Don't judge me.
         startButtonText.transform.parent.GetComponent<Button>().onClick.AddListener(RestartScene);
-        Time.timeScale = 0f;
     }
 
     public void RestartScene()
@@ -99,10 +109,11 @@ public class GameManager : MonoBehaviour
         // Logic to start the game
         mainMenuCanvas.SetActive(false);
         currentState = GameState.Playing;
-        Time.timeScale = 1f;
-        gameStateText.text = "Pause";
-        startButtonText.text = "Reprendre";
+        startButtonText.text = "Resumemaxxing";
+
+        storyCanvas.SetActive(true);
     }
+
 
     public void Quitter()
     {

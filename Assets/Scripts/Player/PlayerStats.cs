@@ -7,7 +7,7 @@ public class PlayerStats : MonoBehaviour
     private Transform healthIcons;
 
     //Player health variables
-    private int maxHealth = 5;
+    private int maxHealth = 6;
     private float immuneTime = 1f;
     private float immuneTimer = 0f;
 
@@ -43,7 +43,7 @@ public class PlayerStats : MonoBehaviour
         {
             // Call gamemanager gameover method
             GameManager manager = FindAnyObjectByType<GameManager>();
-            //manager.GameOver();
+            manager.GameOver();
         }
 
         SetImageAlpha();

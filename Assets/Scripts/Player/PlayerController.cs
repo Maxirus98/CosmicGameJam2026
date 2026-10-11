@@ -63,8 +63,6 @@ public class PlayerController : MonoBehaviour
         if (this.chadMeterValue >= maxMeterValue) return;
 
         this.chadMeterValue += point;
-        scoreSlider.value = this.chadMeterValue;
-        Debug.Log($"Adding {point} points to the meter. Current value: {this.chadMeterValue}");
     }
 
     public void RemovePoint(int point)
@@ -72,14 +70,11 @@ public class PlayerController : MonoBehaviour
         if (this.chadMeterValue <= 0) return;
 
         this.chadMeterValue -= point;
-        scoreSlider.value = this.chadMeterValue;
     }
 
     private void Start()
     {
-        scoreSlider.maxValue = maxMeterValue;
-        chadMeterValue = maxMeterValue / 2;
-        scoreSlider.value = chadMeterValue;
+        chadMeterValue = 0;
         godHandInitialPosition = godHand.position;
         chadHandInitialPosition = chadHand.position;
     }
@@ -142,6 +137,7 @@ public class PlayerController : MonoBehaviour
         // Check if the meter is full
         if (chadMeterValue >= maxMeterValue)
         {
+            AudioManager.Instance.PlayAudio(1, 0.5f);
             glowBurst.SetActive(true);
             OnMeterFull?.Invoke();
             GetComponent<PlayerStats>().GainHealth(1);

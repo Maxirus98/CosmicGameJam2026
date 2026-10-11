@@ -75,6 +75,7 @@ public class EnemyChatter : MonoBehaviour
 
     private void DisplayMessage()
     {
+        AudioManager.Instance.PlayAudio(0, 0.5f);
         if (enemyController.isGood)
         {
             DisplayRandomMessage(goodChatterLines);

@@ -46,6 +46,8 @@ public class EnemyController : MonoBehaviour
     private bool wasClicked = false;
     private float directionMultiplier = 1f;
 
+    private AudioManager audioManager;
+
     private void OnEnable()
     {
         GameManager.GameStateHandler += OnGameStateChanged;
@@ -73,6 +75,7 @@ public class EnemyController : MonoBehaviour
     {
         sr = GetComponentInChildren<SpriteRenderer>();
         animator = GetComponentInChildren<Animator>();
+        audioManager = AudioManager.Instance;
 
         Player = GameObject.FindGameObjectWithTag("Player").transform;
         speed = Random.Range(speedRangeMin, speedRangeMax);
@@ -101,11 +104,14 @@ public class EnemyController : MonoBehaviour
             var pc = Player.GetComponent<PlayerController>();
             if (isGood)
             {
-                pc.AddPoint(1);
-            }else
+                pc.AddPoint(2);
+                audioManager.PlayRandomLoverClip(0.15f);
+            }
+            else
             {
                 pc.GetComponent<PlayerStats>().TakeDamage(1);
-                pc.RemovePoint(1);
+                pc.RemovePoint(2);
+                audioManager.PlayRandomEnemyClip(0.3f);
             }
 
             Destroy(gameObject);
@@ -130,11 +136,11 @@ public class EnemyController : MonoBehaviour
         var pc = Player.GetComponent<PlayerController>();
         if (isGood)
         {
-            pc.RemovePoint(1);
+            pc.RemovePoint(2);
         }
         else
         {
-            pc.AddPoint(1);
+            pc.AddPoint(2);
         }
 
         wasClicked = true;

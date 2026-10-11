@@ -10,6 +10,7 @@ public class HandRotation : MonoBehaviour
 
 
     private Animator animator;
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -21,6 +22,7 @@ public class HandRotation : MonoBehaviour
         if(Input.GetMouseButtonDown(0))
         {
             animator.SetTrigger("Shoot");
+            AudioManager.Instance.PlayRandomPushClip(0.5f);
         }
 
         if (player == null) return;

@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpawner
   enemy: {fileID: 2029096383057267883, guid: 8f8fe222437663447aae4b4889b1e0e0, type: 3}
-  good: {fileID: 0}
+  good: {fileID: 2029096383057267883, guid: 6294fdd403d22e14c96aeed7b8adfc0a, type: 3}
   percentageOfBadGirls: 60
-  spawnRateMin: 0.8
+  spawnRateMin: 0.2
   spawnRateMax: 1.5

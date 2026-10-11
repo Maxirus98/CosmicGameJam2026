@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Collider2D))]
@@ -37,6 +38,9 @@ public class EnemyController : MonoBehaviour
     private List<Sprite> spriteList;
 
     private SpriteRenderer sr;
+
+    [SerializeField]
+    private SpriteRenderer outlineSR;
     private Animator animator;
 
     private bool wasClicked = false;
@@ -113,7 +117,8 @@ public class EnemyController : MonoBehaviour
             Vector3 direction = (Player.position - transform.position).normalized;
 
             // flip x according to the direction the enemy is going
-            sr.flipX = direction.x < 0;
+            sr.flipX = !isGood ? direction.x < 0 : direction.x > 0;
+            outlineSR.flipX = sr.flipX;
             transform.position += direction * speed * directionMultiplier * Time.deltaTime;
         }
     }

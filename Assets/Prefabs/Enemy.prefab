@@ -1,5 +1,119 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1133444819591067808
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8388697795114026070}
+  - component: {fileID: 6110453811368504604}
+  - component: {fileID: 5361332437322946332}
+  m_Layer: 7
+  m_Name: Outline
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8388697795114026070
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133444819591067808}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.07, y: 1.07, z: 1.07}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 5514271573199420803}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &6110453811368504604
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133444819591067808}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5e63515167650a541b309ba3bfd4db3d, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -1
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 1594699602867562299, guid: 52319efd04e43cc4bbf5941e45e207c2, type: 3}
+  m_Color: {r: 1, g: 0, b: 0.07939339, a: 0.72156864}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.06, y: 1.92}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+--- !u!95 &5361332437322946332
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133444819591067808}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: be5402d1f35f115428d4dc76b9047683, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1965635681709513717
 GameObject:
   m_ObjectHideFlags: 0
@@ -82,12 +196,12 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 5708556769639383560, guid: 7789837cfe2bf444c862a341dd4dccd9, type: 3}
+  m_Sprite: {fileID: 1594699602867562299, guid: 52319efd04e43cc4bbf5941e45e207c2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.06, y: 1.92}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -148,6 +262,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8098308090466221629}
+  - {fileID: 8388697795114026070}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4270066297552227844
@@ -167,10 +282,12 @@ MonoBehaviour:
   playerDestroyDistance: 0.8
   pushedAwayForce: 10
   isGood: 0
+  Player: {fileID: 0}
   spriteList:
-  - {fileID: 1594699602867562299, guid: 8e208c03b89b85a4fa3d004203c48ca7, type: 3}
+  - {fileID: 1594699602867562299, guid: 52319efd04e43cc4bbf5941e45e207c2, type: 3}
   - {fileID: 7464120073970320665, guid: a960875356468194a9869bfeb4d9ae7c, type: 3}
-  - {fileID: 5708556769639383560, guid: 7789837cfe2bf444c862a341dd4dccd9, type: 3}
+  - {fileID: 5708556769639383560, guid: a7104ba2fa7d6b840a190efeecbcf5aa, type: 3}
+  outlineSR: {fileID: 6110453811368504604}
 --- !u!50 &1973452740812196721
 Rigidbody2D:
   serializedVersion: 5
@@ -246,28 +363,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc3c9c5a551224441b7695b9dfd5c8ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyChatter
-  badChatterLines:
-  - Scammer
-  - follow my OnlyFeet to keep chatting
-  - Family Member
-  - "if u can\u2019t handle my worst u don\u2019t deserve my slightly better"
-  - "OwO What\u2019s this?"
-  - whats ur rank on league?
-  - ur so much hotter than my ex
-  - pls lemme lick ur abs Chaddy
-  - i put on my robe and wizard hat
-  - did it hurt? when u fell down the stairs?
-  - idk what i wanna eat, u choose
-  - asl?
-  - je suis du 82 et toi??
-  - u need to be 6 feet tall, 6 figures, 6 toes
-  - r u a gamecube controller?
-  - cuz i wanna super smash (melee)
-  - eggplant emoji
-  - ur lowkey a snack no cap on god six seven
-  - 'Date me and get 5000 gold on RAID: SHADOW LEGENDS!'
-  - "my bf doesn\u2019t need to know"
-  - wats on the menu? ME-N-U!
-  - "ur cat won\u2019t sleep with us, right?"
-  - call me garbage cuz i wanna ride dat dump truck
   chatBubble: {fileID: 7748123927620745032, guid: 6351192ce4a587444980929375edbdc8, type: 3}

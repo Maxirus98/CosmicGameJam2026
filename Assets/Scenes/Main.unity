@@ -2358,15 +2358,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3718551549089775671, guid: a334eabbdc2a5b64a95996bbea7ced5e, type: 3}
       propertyPath: m_Color.a
-      value: 1
+      value: 0.64705884
       objectReference: {fileID: 0}
     - target: {fileID: 6330778223260557877, guid: a334eabbdc2a5b64a95996bbea7ced5e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.107540004
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6330778223260557877, guid: a334eabbdc2a5b64a95996bbea7ced5e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0065866667
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6330778223260557877, guid: a334eabbdc2a5b64a95996bbea7ced5e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3165,14 +3165,6 @@ PrefabInstance:
     - target: {fileID: 5393352307414076239, guid: f2d7897c5189e8446aea5c7b35c35b51, type: 3}
       propertyPath: m_Name
       value: EnemySpawner
-      objectReference: {fileID: 0}
-    - target: {fileID: 5764229168508199968, guid: f2d7897c5189e8446aea5c7b35c35b51, type: 3}
-      propertyPath: good
-      value: 
-      objectReference: {fileID: 2029096383057267883, guid: 8f8fe222437663447aae4b4889b1e0e0, type: 3}
-    - target: {fileID: 5764229168508199968, guid: f2d7897c5189e8446aea5c7b35c35b51, type: 3}
-      propertyPath: spawnRateMin
-      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -70,9 +70,9 @@ public class EnemySpawner : MonoBehaviour
                 break;
         }
 
-        var isGood = Random.value > (percentageOfBadGirls / 100f); // 25% chance to be a good girl
-
-        var clone = Instantiate(isGood ? good : enemy, new Vector3(spawnPos.x, spawnPos.y, 0f), Quaternion.identity);
+        var isGood = Random.value > (percentageOfBadGirls / 100f);
+        var enemyPrefab = isGood ? good : enemy;
+        var clone = Instantiate(enemyPrefab, new Vector3(spawnPos.x, spawnPos.y, 0f), Quaternion.identity);
 
         // Set the sorting order of the enemy's sprite renderer based on the number of enemies spawned
         clone.GetComponentInChildren<SpriteRenderer>().sortingOrder = 1 + enemyCount;

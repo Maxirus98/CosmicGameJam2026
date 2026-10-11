@@ -45,6 +45,9 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI endText;
 
+    [SerializeField]
+    [Tooltip("The main music audio source")]
+    private AudioSource musicMain;
 
     private void Start()
     {
@@ -86,8 +89,9 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         Time.timeScale = 0f;
+        musicMain.Stop();
         var wave = FindObjectsByType<EnemySpawner>(FindObjectsSortMode.None);
-        endText.text = "# Wave: " + wave.Length.ToString();
+        endText.text = "# You chadmaxxed: " + wave.Length.ToString() + " times.";
         // Fade in the main menu canvas and show the game over message
         endCanvas.SetActive(true);
         mainMenuCanvas.SetActive(true);

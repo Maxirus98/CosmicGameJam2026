@@ -59,7 +59,7 @@ public class EnemyChatter : MonoBehaviour
     private void Start()
     {
         enemyController = GetComponent<EnemyController>();
-        willChat = Random.Range(0f, 1f) < 0.1f; // 10% chance to chat
+        willChat = Random.Range(0f, 1f) < (enemyController.isGood ? 0.3f : 0.2f); // 20% chance to chat if good, 10% if bad
     }
 
     // Update is called once per frame

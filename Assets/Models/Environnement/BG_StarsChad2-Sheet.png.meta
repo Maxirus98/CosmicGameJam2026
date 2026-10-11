@@ -1,0 +1,1755 @@
+fileFormatVersion: 2
+guid: 43cd5a581cb87324f9bd926346160d59
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5979206549398005727
+    second: BG_StarsChad2-Sheet_0
+  - first:
+      213: 6512949801102335596
+    second: BG_StarsChad2-Sheet_1
+  - first:
+      213: -8684501224515265911
+    second: BG_StarsChad2-Sheet_2
+  - first:
+      213: 1165538338061097704
+    second: BG_StarsChad2-Sheet_3
+  - first:
+      213: -8117325253856118219
+    second: BG_StarsChad2-Sheet_4
+  - first:
+      213: 7457648004946078959
+    second: BG_StarsChad2-Sheet_5
+  - first:
+      213: 8151302516775491249
+    second: BG_StarsChad2-Sheet_6
+  - first:
+      213: -5224407697565604866
+    second: BG_StarsChad2-Sheet_7
+  - first:
+      213: 6212732825812525107
+    second: BG_StarsChad2-Sheet_8
+  - first:
+      213: 4039577702797386556
+    second: BG_StarsChad2-Sheet_9
+  - first:
+      213: -9165397121268437086
+    second: BG_StarsChad2-Sheet_10
+  - first:
+      213: -317241321270799554
+    second: BG_StarsChad2-Sheet_11
+  - first:
+      213: -4116791054217197707
+    second: BG_StarsChad2-Sheet_12
+  - first:
+      213: 608636838404473867
+    second: BG_StarsChad2-Sheet_13
+  - first:
+      213: 4731027553069370349
+    second: BG_StarsChad2-Sheet_14
+  - first:
+      213: 6062296907287418322
+    second: BG_StarsChad2-Sheet_15
+  - first:
+      213: 8035729266800532858
+    second: BG_StarsChad2-Sheet_16
+  - first:
+      213: 5021859175814719692
+    second: BG_StarsChad2-Sheet_17
+  - first:
+      213: 7271216590788648425
+    second: BG_StarsChad2-Sheet_18
+  - first:
+      213: 7558801608621661830
+    second: BG_StarsChad2-Sheet_19
+  - first:
+      213: -1994227399537870450
+    second: BG_StarsChad2-Sheet_20
+  - first:
+      213: 2566451172480769134
+    second: BG_StarsChad2-Sheet_21
+  - first:
+      213: 8664297855508170984
+    second: BG_StarsChad2-Sheet_22
+  - first:
+      213: -853993035340123447
+    second: BG_StarsChad2-Sheet_23
+  - first:
+      213: 1652504682061013642
+    second: BG_StarsChad2-Sheet_24
+  - first:
+      213: -5388388275962381301
+    second: BG_StarsChad2-Sheet_25
+  - first:
+      213: -4209818691113518104
+    second: BG_StarsChad2-Sheet_26
+  - first:
+      213: 1114753461510533873
+    second: BG_StarsChad2-Sheet_27
+  - first:
+      213: -7747615534369190170
+    second: BG_StarsChad2-Sheet_28
+  - first:
+      213: -7284120703405581409
+    second: BG_StarsChad2-Sheet_29
+  - first:
+      213: -8380218179123697126
+    second: BG_StarsChad2-Sheet_30
+  - first:
+      213: 2154517190610691487
+    second: BG_StarsChad2-Sheet_31
+  - first:
+      213: -2485130724842041173
+    second: BG_StarsChad2-Sheet_32
+  - first:
+      213: 2858903001394810227
+    second: BG_StarsChad2-Sheet_33
+  - first:
+      213: 7759363091146394419
+    second: BG_StarsChad2-Sheet_34
+  - first:
+      213: 8521559464320220142
+    second: BG_StarsChad2-Sheet_35
+  - first:
+      213: 7540710498956076321
+    second: BG_StarsChad2-Sheet_36
+  - first:
+      213: 1801045359109553209
+    second: BG_StarsChad2-Sheet_37
+  - first:
+      213: -4066446306663815337
+    second: BG_StarsChad2-Sheet_38
+  - first:
+      213: 3008318511551223985
+    second: BG_StarsChad2-Sheet_39
+  - first:
+      213: -8691358363206850627
+    second: BG_StarsChad2-Sheet_40
+  - first:
+      213: -5681644648992149864
+    second: BG_StarsChad2-Sheet_41
+  - first:
+      213: 5314993296643220748
+    second: BG_StarsChad2-Sheet_42
+  - first:
+      213: -8564775095036728905
+    second: BG_StarsChad2-Sheet_43
+  - first:
+      213: 5966364784629194580
+    second: BG_StarsChad2-Sheet_44
+  - first:
+      213: -4057458568767108421
+    second: BG_StarsChad2-Sheet_45
+  - first:
+      213: -8153839236962517068
+    second: BG_StarsChad2-Sheet_46
+  - first:
+      213: -5599346182640026617
+    second: BG_StarsChad2-Sheet_47
+  - first:
+      213: -8304595082582981243
+    second: BG_StarsChad2-Sheet_48
+  - first:
+      213: -3944653487794472068
+    second: BG_StarsChad2-Sheet_49
+  - first:
+      213: -6941225396224584571
+    second: BG_StarsChad2-Sheet_50
+  - first:
+      213: -5497051707356975434
+    second: BG_StarsChad2-Sheet_51
+  - first:
+      213: 4979359974783042856
+    second: BG_StarsChad2-Sheet_52
+  - first:
+      213: -5166299726312903513
+    second: BG_StarsChad2-Sheet_53
+  - first:
+      213: 2869936774025224171
+    second: BG_StarsChad2-Sheet_54
+  - first:
+      213: 2260974154297845560
+    second: BG_StarsChad2-Sheet_55
+  - first:
+      213: -5846125463480168162
+    second: BG_StarsChad2-Sheet_56
+  - first:
+      213: 6965290055599341694
+    second: BG_StarsChad2-Sheet_57
+  - first:
+      213: -8887072498778420539
+    second: BG_StarsChad2-Sheet_58
+  - first:
+      213: -2195991663591212621
+    second: BG_StarsChad2-Sheet_59
+  - first:
+      213: -368210863037736157
+    second: BG_StarsChad2-Sheet_60
+  - first:
+      213: -6699662319449047931
+    second: BG_StarsChad2-Sheet_61
+  - first:
+      213: 8996224006569515006
+    second: BG_StarsChad2-Sheet_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 999
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd7ae8f6da86af250800000000000000
+      internalID: 5979206549398005727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 975
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ed7a64655a26a50800000000000000
+      internalID: 6512949801102335596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 1007
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a925516247a7780800000000000000
+      internalID: -8684501224515265911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 1015
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea1b3471f2dc2010800000000000000
+      internalID: 1165538338061097704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 991
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a399560b7795f80800000000000000
+      internalID: -8117325253856118219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2623
+        y: 967
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec26b22953ee7760800000000000000
+      internalID: 7457648004946078959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 3063
+        y: 999
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b69629937e3f1170800000000000000
+      internalID: 8151302516775491249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 3767
+        y: 1007
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef329c011ec2f77b0800000000000000
+      internalID: -5224407697565604866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 3839
+        y: 991
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330e6fea69f083650800000000000000
+      internalID: 6212732825812525107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 4543
+        y: 967
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33a3d1a4867f0830800000000000000
+      internalID: 4039577702797386556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 4983
+        y: 999
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af2869e0e7fdc080800000000000000
+      internalID: -9165397121268437086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 5687
+        y: 1007
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e331499f2bee89bf0800000000000000
+      internalID: -317241321270799554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 911
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577c0ee09583ed6c0800000000000000
+      internalID: -4116791054217197707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 927
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04c056daff427800800000000000000
+      internalID: 608636838404473867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2527
+        y: 871
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb09435e7cf7a140800000000000000
+      internalID: 4731027553069370349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 903
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5d0d1faea912450800000000000000
+      internalID: 6062296907287418322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 3591
+        y: 919
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d1bda6135a48f60800000000000000
+      internalID: 8035729266800532858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 4447
+        y: 871
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8e87e305a31b540800000000000000
+      internalID: 5021859175814719692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 5159
+        y: 903
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed52eaf6fc88e460800000000000000
+      internalID: 7271216590788648425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 5511
+        y: 919
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e9b89c30246e860800000000000000
+      internalID: 7558801608621661830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 863
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89b139feb41354e0800000000000000
+      internalID: -1994227399537870450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 879
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6cd9156ebddd9320800000000000000
+      internalID: 2566451172480769134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 855
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e84eb18ef4cd3870800000000000000
+      internalID: 8664297855508170984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 4095
+        y: 855
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2f4e7ebd10624f0800000000000000
+      internalID: -853993035340123447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 815
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a82aae3c040eee610800000000000000
+      internalID: 1652504682061013642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 3079
+        y: 807
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0cf16379699835b0800000000000000
+      internalID: -5388388275962381301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 4999
+        y: 807
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ebf06b7438b395c0800000000000000
+      internalID: -4209818691113518104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 735
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2f875fd56687f00800000000000000
+      internalID: 1114753461510533873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 727
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee40a958b0fa7490800000000000000
+      internalID: -7747615534369190170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 3967
+        y: 727
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b117c20da99ea90800000000000000
+      internalID: -7284120703405581409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 647
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1aaf0567fb73bb80800000000000000
+      internalID: -8380218179123697126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 3511
+        y: 639
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95a2d048f166ed10800000000000000
+      internalID: 2154517190610691487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 5431
+        y: 639
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba09165c5ca038dd0800000000000000
+      internalID: -2485130724842041173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 543
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d8f65f12ddca720800000000000000
+      internalID: 2858903001394810227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 575
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33bce0bde9bceab60800000000000000
+      internalID: 7759363091146394419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 535
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eebbc230f29a24670800000000000000
+      internalID: 8521559464320220142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 3207
+        y: 567
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125e5541f3cf5a860800000000000000
+      internalID: 7540710498956076321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 3927
+        y: 535
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c371636399ef810800000000000000
+      internalID: 1801045359109553209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 5127
+        y: 567
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757aa1901a41197c0800000000000000
+      internalID: -4066446306663815337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 399
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b81e3c5fb1bfb920800000000000000
+      internalID: 3008318511551223985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 391
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db76f611e97126780800000000000000
+      internalID: -8691358363206850627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 5639
+        y: 391
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ee2dc5b4eb621b0800000000000000
+      internalID: -5681644648992149864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 263
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0560064e36a2c940800000000000000
+      internalID: 5314993296643220748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 3735
+        y: 255
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b9293fdd6ec32980800000000000000
+      internalID: -8564775095036728905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 5655
+        y: 255
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f19341929ccc250800000000000000
+      internalID: 5966364784629194580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 175
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba85c5dde201b7c0800000000000000
+      internalID: -4057458568767108421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 2751
+        y: 167
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bff4353a6eb7de80800000000000000
+      internalID: -8153839236962517068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 4671
+        y: 167
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c3d4140502b42b0800000000000000
+      internalID: -5599346182640026617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 87
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5858f23a5c620cc80800000000000000
+      internalID: -8304595082582981243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 111
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b31027d86c149c0800000000000000
+      internalID: -3944653487794472068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 79
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5841d104740dbaf90800000000000000
+      internalID: -6941225396224584571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 79
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be6807c89c86b3b0800000000000000
+      internalID: -5497051707356975434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 103
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825cdb9e38d3a1540800000000000000
+      internalID: 4979359974783042856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 3215
+        y: 55
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7acebe965cd9d48b0800000000000000
+      internalID: -5166299726312903513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 3631
+        y: 71
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef9a975a4014d720800000000000000
+      internalID: 2869936774025224171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 3863
+        y: 79
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8372341a308906f10800000000000000
+      internalID: 2260974154297845560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 3991
+        y: 103
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1116e47dd36edea0800000000000000
+      internalID: -5846125463480168162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 5135
+        y: 55
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e704f81e66ea9a060800000000000000
+      internalID: 6965290055599341694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 5551
+        y: 71
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca4b29e5a6caa480800000000000000
+      internalID: -8887072498778420539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 31
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b93de187354681e0800000000000000
+      internalID: -2195991663591212621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 63
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b1232cb2ad3eaf0800000000000000
+      internalID: -368210863037736157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 2423
+        y: 23
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c7b26ed940603a0800000000000000
+      internalID: -6699662319449047931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_StarsChad2-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 4343
+        y: 23
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef7da67e11209dc70800000000000000
+      internalID: 8996224006569515006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BG_StarsChad2-Sheet_0: 5979206549398005727
+      BG_StarsChad2-Sheet_1: 6512949801102335596
+      BG_StarsChad2-Sheet_10: -9165397121268437086
+      BG_StarsChad2-Sheet_11: -317241321270799554
+      BG_StarsChad2-Sheet_12: -4116791054217197707
+      BG_StarsChad2-Sheet_13: 608636838404473867
+      BG_StarsChad2-Sheet_14: 4731027553069370349
+      BG_StarsChad2-Sheet_15: 6062296907287418322
+      BG_StarsChad2-Sheet_16: 8035729266800532858
+      BG_StarsChad2-Sheet_17: 5021859175814719692
+      BG_StarsChad2-Sheet_18: 7271216590788648425
+      BG_StarsChad2-Sheet_19: 7558801608621661830
+      BG_StarsChad2-Sheet_2: -8684501224515265911
+      BG_StarsChad2-Sheet_20: -1994227399537870450
+      BG_StarsChad2-Sheet_21: 2566451172480769134
+      BG_StarsChad2-Sheet_22: 8664297855508170984
+      BG_StarsChad2-Sheet_23: -853993035340123447
+      BG_StarsChad2-Sheet_24: 1652504682061013642
+      BG_StarsChad2-Sheet_25: -5388388275962381301
+      BG_StarsChad2-Sheet_26: -4209818691113518104
+      BG_StarsChad2-Sheet_27: 1114753461510533873
+      BG_StarsChad2-Sheet_28: -7747615534369190170
+      BG_StarsChad2-Sheet_29: -7284120703405581409
+      BG_StarsChad2-Sheet_3: 1165538338061097704
+      BG_StarsChad2-Sheet_30: -8380218179123697126
+      BG_StarsChad2-Sheet_31: 2154517190610691487
+      BG_StarsChad2-Sheet_32: -2485130724842041173
+      BG_StarsChad2-Sheet_33: 2858903001394810227
+      BG_StarsChad2-Sheet_34: 7759363091146394419
+      BG_StarsChad2-Sheet_35: 8521559464320220142
+      BG_StarsChad2-Sheet_36: 7540710498956076321
+      BG_StarsChad2-Sheet_37: 1801045359109553209
+      BG_StarsChad2-Sheet_38: -4066446306663815337
+      BG_StarsChad2-Sheet_39: 3008318511551223985
+      BG_StarsChad2-Sheet_4: -8117325253856118219
+      BG_StarsChad2-Sheet_40: -8691358363206850627
+      BG_StarsChad2-Sheet_41: -5681644648992149864
+      BG_StarsChad2-Sheet_42: 5314993296643220748
+      BG_StarsChad2-Sheet_43: -8564775095036728905
+      BG_StarsChad2-Sheet_44: 5966364784629194580
+      BG_StarsChad2-Sheet_45: -4057458568767108421
+      BG_StarsChad2-Sheet_46: -8153839236962517068
+      BG_StarsChad2-Sheet_47: -5599346182640026617
+      BG_StarsChad2-Sheet_48: -8304595082582981243
+      BG_StarsChad2-Sheet_49: -3944653487794472068
+      BG_StarsChad2-Sheet_5: 7457648004946078959
+      BG_StarsChad2-Sheet_50: -6941225396224584571
+      BG_StarsChad2-Sheet_51: -5497051707356975434
+      BG_StarsChad2-Sheet_52: 4979359974783042856
+      BG_StarsChad2-Sheet_53: -5166299726312903513
+      BG_StarsChad2-Sheet_54: 2869936774025224171
+      BG_StarsChad2-Sheet_55: 2260974154297845560
+      BG_StarsChad2-Sheet_56: -5846125463480168162
+      BG_StarsChad2-Sheet_57: 6965290055599341694
+      BG_StarsChad2-Sheet_58: -8887072498778420539
+      BG_StarsChad2-Sheet_59: -2195991663591212621
+      BG_StarsChad2-Sheet_6: 8151302516775491249
+      BG_StarsChad2-Sheet_60: -368210863037736157
+      BG_StarsChad2-Sheet_61: -6699662319449047931
+      BG_StarsChad2-Sheet_62: 8996224006569515006
+      BG_StarsChad2-Sheet_7: -5224407697565604866
+      BG_StarsChad2-Sheet_8: 6212732825812525107
+      BG_StarsChad2-Sheet_9: 4039577702797386556
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8098308090466221629}
   - component: {fileID: 5910024553004838002}
   - component: {fileID: 3837781184714884930}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,7 +126,8 @@ GameObject:
   - component: {fileID: 4270066297552227844}
   - component: {fileID: 1973452740812196721}
   - component: {fileID: 3531305255124381081}
-  m_Layer: 0
+  - component: {fileID: 5479485591418214604}
+  m_Layer: 7
   m_Name: Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -233,3 +234,40 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.8
+--- !u!114 &5479485591418214604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029096383057267883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc3c9c5a551224441b7695b9dfd5c8ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyChatter
+  badChatterLines:
+  - Scammer
+  - follow my OnlyFeet to keep chatting
+  - Family Member
+  - "if u can\u2019t handle my worst u don\u2019t deserve my slightly better"
+  - "OwO What\u2019s this?"
+  - whats ur rank on league?
+  - ur so much hotter than my ex
+  - pls lemme lick ur abs Chaddy
+  - i put on my robe and wizard hat
+  - did it hurt? when u fell down the stairs?
+  - idk what i wanna eat, u choose
+  - asl?
+  - je suis du 82 et toi??
+  - u need to be 6 feet tall, 6 figures, 6 toes
+  - r u a gamecube controller?
+  - cuz i wanna super smash (melee)
+  - eggplant emoji
+  - ur lowkey a snack no cap on god six seven
+  - 'Date me and get 5000 gold on RAID: SHADOW LEGENDS!'
+  - "my bf doesn\u2019t need to know"
+  - wats on the menu? ME-N-U!
+  - "ur cat won\u2019t sleep with us, right?"
+  - call me garbage cuz i wanna ride dat dump truck
+  chatBubble: {fileID: 7748123927620745032, guid: 6351192ce4a587444980929375edbdc8, type: 3}

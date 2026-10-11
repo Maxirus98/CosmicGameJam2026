@@ -15,7 +15,7 @@ TagManager:
   - Water
   - UI
   - Player
-  - 
+  - Enemy
   - 
   - 
   - 
@@ -46,6 +46,12 @@ TagManager:
     locked: 0
   - name: Stars
     uniqueID: 2386281585
+    locked: 0
+  - name: ChatBubble
+    uniqueID: 1944701589
+    locked: 0
+  - name: Text
+    uniqueID: 1230798693
     locked: 0
   - name: Default
     uniqueID: 0

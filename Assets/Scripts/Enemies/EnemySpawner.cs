@@ -1,6 +1,5 @@
-using NUnit.Framework;
-using System.Collections.Generic;
 using UnityEngine;
+
 public class EnemySpawner : MonoBehaviour
 {
     [SerializeField]
@@ -27,6 +26,7 @@ public class EnemySpawner : MonoBehaviour
     /// </summary>
     private bool enemyShouldSpawn = true;
 
+    private int enemyCount = 0;
     // Update is called once per frame
     void Update()
     {
@@ -72,6 +72,10 @@ public class EnemySpawner : MonoBehaviour
 
         var isGood = Random.value > (percentageOfBadGirls / 100f); // 25% chance to be a good girl
 
-        Instantiate(isGood ? good : enemy, new Vector3(spawnPos.x, spawnPos.y, 0f), Quaternion.identity);
+        var clone = Instantiate(isGood ? good : enemy, new Vector3(spawnPos.x, spawnPos.y, 0f), Quaternion.identity);
+
+        // Set the sorting order of the enemy's sprite renderer based on the number of enemies spawned
+        clone.GetComponentInChildren<SpriteRenderer>().sortingOrder = 1 + enemyCount;
+        enemyCount++;
     }
 }

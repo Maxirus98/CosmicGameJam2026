@@ -16,6 +16,10 @@ public class PlayerController : MonoBehaviour
     [Tooltip("Prefab of the enemy spawner to instantiate when the meter is full")]
     private GameObject enemySpawnerPrefab;
 
+    [SerializeField]
+    [Tooltip("SpriteRenderer for the glow effect when the meter fills")]
+    private SpriteRenderer glowSpriteRender;
+
     private int chadMeterValue = 0;
 
     /// <summary>
@@ -70,7 +74,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         // RotateTowardsMouse();
-        if(dashCooldownTimer < dashCooldown)
+        if (dashCooldownTimer < dashCooldown)
         {
             dashCooldownTimer += Time.deltaTime;
         }
@@ -85,7 +89,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if(isDashing)
+        if (isDashing)
         {
             dashTimer += Time.deltaTime;
             PerformDash(currentDirection);
@@ -115,8 +119,10 @@ public class PlayerController : MonoBehaviour
         clampedPosition.y = Mathf.Clamp(clampedPosition.y, -camHeight + 0.5f, camHeight - 0.5f);
         transform.position = clampedPosition;
 
-        // Check if the meter is full for the required time to access the next level
-        if(chadMeterValue >= maxMeterValue)
+        SetGlowAlpha(1f * chadMeterValue / maxMeterValue / 255f * 100);
+
+        // Check if the meter is full
+        if (chadMeterValue >= maxMeterValue)
         {
             OnMeterFull?.Invoke();
             GetComponent<PlayerStats>().GainHealth(1);
@@ -124,6 +130,14 @@ public class PlayerController : MonoBehaviour
             Instantiate(enemySpawnerPrefab, Vector3.zero, Quaternion.identity);
             meterFullTriggered = false;
         }
+    }
+
+    private void SetGlowAlpha(float alpha)
+    {
+
+        Color tempColor = glowSpriteRender.color;
+        tempColor.a = alpha;
+        glowSpriteRender.color = tempColor;
     }
 
     private void PerformDash(Vector3 direction)

@@ -43,7 +43,7 @@ public class PlayerStats : MonoBehaviour
         {
             // Call gamemanager gameover method
             GameManager manager = FindAnyObjectByType<GameManager>();
-            manager.GameOver();
+            //manager.GameOver();
         }
 
         SetImageAlpha();

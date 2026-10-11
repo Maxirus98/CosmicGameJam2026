@@ -19,14 +19,13 @@ public class HandsOrbiter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        // Rotate the hand around the player and towards the mouse like a gun around a 2d topdown player
 
-        if(Input.GetKeyDown(0))
-        {
-            
-            var clone = Instantiate(handPrefab, transform.position, Quaternion.identity);
-            clone.GetComponent<HandProjectile>().MouseClickPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        }
+    }
+
+    private void RotateAroundPlayer()
+    {
+        
     }
 
     // Rotates the player towards the mouse

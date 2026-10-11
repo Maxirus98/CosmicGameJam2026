@@ -7,6 +7,7 @@ using UnityEngine.SocialPlatforms.Impl;
 [RequireComponent(typeof(Collider2D))]
 public class EnemyController : MonoBehaviour
 {
+    private const float TIME_BEFORE_DESTROYED_AFTER_PUSHED = 3f;
     [SerializeField]
     [Tooltip("Minimum speed of the enemy")]
     private float speedRangeMin = 2f;
@@ -25,11 +26,11 @@ public class EnemyController : MonoBehaviour
     // The actual speed of the enemy, randomly set between speedRangeMin and speedRangeMax
     private float speed;
 
-    [SerializeField]
     [Tooltip("Check if good. Uncheck if bad")]
-    private bool isGood = false;
+    public bool isGood = false;
 
-    private Transform player;
+    [HideInInspector]
+    public Transform Player;
 
     [SerializeField]
     [Tooltip("Sprite list models good or bad")]
@@ -37,6 +38,9 @@ public class EnemyController : MonoBehaviour
 
     private SpriteRenderer sr;
     private Animator animator;
+
+    private bool wasClicked = false;
+    private float directionMultiplier = 1f;
 
     private void OnEnable()
     {
@@ -52,7 +56,7 @@ public class EnemyController : MonoBehaviour
     private void OnMeterFull()
     {
         if (isGood) return;
-        Vector3 direction = (player.position - transform.position).normalized;
+        Vector3 direction = (Player.position - transform.position).normalized;
         GetComponent<Rigidbody2D>().AddForce(-direction * pushedAwayForce, ForceMode2D.Impulse);
     }
 
@@ -66,7 +70,7 @@ public class EnemyController : MonoBehaviour
         sr = GetComponentInChildren<SpriteRenderer>();
         animator = GetComponentInChildren<Animator>();
 
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        Player = GameObject.FindGameObjectWithTag("Player").transform;
         speed = Random.Range(speedRangeMin, speedRangeMax);
 
         // Randomly determine if this enemy is a "good girl" (friendly) or not
@@ -82,10 +86,15 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // If close to player destroy itself
-        if (player != null && Vector3.Distance(transform.position, player.position) < playerDestroyDistance)
+        if(wasClicked)
         {
-            var pc = player.GetComponent<PlayerController>();
+            directionMultiplier = -3f;
+        }
+
+        // If close to player destroy itself
+        if (Player != null && Vector3.Distance(transform.position, Player.position) < playerDestroyDistance)
+        {
+            var pc = Player.GetComponent<PlayerController>();
             if (isGood)
             {
                 pc.AddPoint(1);
@@ -99,13 +108,13 @@ public class EnemyController : MonoBehaviour
         }
 
         // Move towards the player
-        if (player != null)
+        if (Player != null)
         {
-            Vector3 direction = (player.position - transform.position).normalized;
+            Vector3 direction = (Player.position - transform.position).normalized;
 
             // flip x according to the direction the enemy is going
             sr.flipX = direction.x < 0;
-            transform.position += direction * speed * Time.deltaTime;
+            transform.position += direction * speed * directionMultiplier * Time.deltaTime;
         }
     }
 
@@ -113,7 +122,7 @@ public class EnemyController : MonoBehaviour
     // When the enemy is clicked, it will either add or remove points from the player based on whether it's a "good girl" or not
     private void OnMouseDown()
     {
-        var pc = player.GetComponent<PlayerController>();
+        var pc = Player.GetComponent<PlayerController>();
         if (isGood)
         {
             pc.RemovePoint(1);
@@ -123,7 +132,8 @@ public class EnemyController : MonoBehaviour
             pc.AddPoint(1);
         }
 
-        Destroy(gameObject);
+        wasClicked = true;
+        Destroy(gameObject, TIME_BEFORE_DESTROYED_AFTER_PUSHED);
     }
 
     private void OnDisable()

@@ -3,11 +3,10 @@ using UnityEngine;
 
 public class EnemyChatter : MonoBehaviour
 {
-    [SerializeField]
     private string[] badChatterLines = {
-        "Scammer",
+        "I'd like to talk to you about your car's extended warranty",
         "follow my OnlyFeet to keep chatting",
-        "Family Member",
+        "Help me step-chad, I'm stuck",
         "if u can’t handle my worst u don’t deserve my slightly better",
         "OwO What’s this?",
         "whats ur rank on league?",
@@ -25,7 +24,7 @@ public class EnemyChatter : MonoBehaviour
         "my bf doesn’t need to know",
         "wats on the menu? ME-N-U!",
         "ur cat won’t sleep with us, right?",
-        "call me garbage cuz i wanna ride dat dump truck"
+        "call me garbage cuz i wanna ride dat dump truck",
     };
 
     private string[] goodChatterLines =

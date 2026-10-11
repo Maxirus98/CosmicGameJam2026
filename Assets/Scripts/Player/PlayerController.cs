@@ -46,6 +46,10 @@ public class PlayerController : MonoBehaviour
 
     private Vector3 currentDirection;
 
+    [SerializeField]
+    [Tooltip("Prefab of the glow burst effect to instantiate when the meter is full")]
+    private GameObject glowBurst;
+
     public void AddPoint(int point)
     {
         if (this.chadMeterValue >= maxMeterValue) return;
@@ -124,9 +128,11 @@ public class PlayerController : MonoBehaviour
         // Check if the meter is full
         if (chadMeterValue >= maxMeterValue)
         {
+            glowBurst.SetActive(true);
             OnMeterFull?.Invoke();
             GetComponent<PlayerStats>().GainHealth(1);
             chadMeterValue = 0;
+            maxMeterValue -= 10;
             Instantiate(enemySpawnerPrefab, Vector3.zero, Quaternion.identity);
             meterFullTriggered = false;
         }

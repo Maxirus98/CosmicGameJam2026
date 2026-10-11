@@ -42,6 +42,9 @@ public class GameManager : MonoBehaviour
     [Tooltip("The canvas for the end")]
     private GameObject endCanvas;
 
+    [SerializeField]
+    private TextMeshProUGUI endText;
+
 
     private void Start()
     {
@@ -83,7 +86,8 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         Time.timeScale = 0f;
-
+        var wave = FindObjectsByType<EnemySpawner>(FindObjectsSortMode.None);
+        endText.text = "# Wave: " + wave.Length.ToString();
         // Fade in the main menu canvas and show the game over message
         endCanvas.SetActive(true);
         mainMenuCanvas.SetActive(true);

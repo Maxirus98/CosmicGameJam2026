@@ -20,6 +20,14 @@ public class PlayerController : MonoBehaviour
     [Tooltip("SpriteRenderer for the glow effect when the meter fills")]
     private SpriteRenderer glowSpriteRender;
 
+    [SerializeField]
+    private Transform godHand;
+    private Vector3 godHandInitialPosition;
+
+    [SerializeField]
+    private Transform chadHand;
+    private Vector3 chadHandInitialPosition;
+
     private int chadMeterValue = 0;
 
     /// <summary>
@@ -72,6 +80,8 @@ public class PlayerController : MonoBehaviour
         scoreSlider.maxValue = maxMeterValue;
         chadMeterValue = maxMeterValue / 2;
         scoreSlider.value = chadMeterValue;
+        godHandInitialPosition = godHand.position;
+        chadHandInitialPosition = chadHand.position;
     }
 
     // Update is called once per frame
@@ -123,6 +133,10 @@ public class PlayerController : MonoBehaviour
         clampedPosition.y = Mathf.Clamp(clampedPosition.y, -camHeight + 0.5f, camHeight - 0.5f);
         transform.position = clampedPosition;
 
+        // Move the godHand and chadHand towards the center of the screen based on the meter value
+        godHand.position =  Vector2.Lerp(godHandInitialPosition, Vector2.zero, (1f * chadMeterValue/maxMeterValue));
+        chadHand.position = Vector2.Lerp(chadHandInitialPosition, Vector2.zero, (1f * chadMeterValue/maxMeterValue));
+
         SetGlowAlpha(1f * chadMeterValue / maxMeterValue / 255f * 100);
 
         // Check if the meter is full
@@ -132,7 +146,6 @@ public class PlayerController : MonoBehaviour
             OnMeterFull?.Invoke();
             GetComponent<PlayerStats>().GainHealth(1);
             chadMeterValue = 0;
-            maxMeterValue -= 10;
             Instantiate(enemySpawnerPrefab, Vector3.zero, Quaternion.identity);
             meterFullTriggered = false;
         }
